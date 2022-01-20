@@ -1,0 +1,50 @@
+/*init des variables globales*/
+:root{
+
+    /*Variable Couleur*/
+    --PrimaryColor : #1F7E85;
+
+    /*Variable Typo*/
+    --Title1Typo : 'Gloria Hallelujah', cursive;   
+    --Title2Typo: 'Baloo Tamma 2', cursive;
+    --NormalTypo: 'Libre Franklin', sans-serif;
+}
+nav>a{
+    font-family: var(--Title1Typo);
+    font-size: 100px !important;
+}
+
+nav a img{
+    margin-right: 0.5em;
+    border-radius: 30px;
+}
+
+header{
+    background-color: var(--PrimaryColor);
+}
+
+nav ul li a{
+    font-family: var(--Title2Typo);
+    font-size: 1em;
+}
+
+strong{
+    color:var(--PrimaryColor)
+}
+
+h1{
+    margin-top: 0,5em;
+    margin-left: 0,5em;
+    font-family: var(--Title2Typo);
+    font-size: 2em;
+}
+
+P{
+    font-family: var(--NormalTypo);
+    font-size: 1em;
+}
+
+#PhotoAccueil{
+    width: 300px;
+    height: 1000px;
+}
