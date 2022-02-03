@@ -1,115 +1,422 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Méta-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Le handball club de Guiscard a été crée en 1982. Les catégories d'age font de 3 ans à 99ans. Club, famille, passion.">
 
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
-    <!--Police-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Libre+Franklin:wght@100;200&display=swap" rel="stylesheet">
+  <!--Police-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Libre+Franklin:wght@100;200&display=swap"
+    rel="stylesheet">
 
-    <!--Feuille de style-->
-    <link rel="stylesheet" href="init.css">
-    <link rel="stylesheet" href="style.css">
-    
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
-    <title>Handball Club Guiscard</title>
+  <!--Feuille de style-->
+  <link rel="stylesheet" href="init.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Handball Club Guiscard</title>
 
 </head>
+
 <body>
-    <!--init pour bootstrap-->
-    <div class="container-fluid">
-        <!--En tête-->
-        <header class="row">
-            <div class="col-12 ">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand d-flex align-items-center tilte" href="index.html">
-                        <img src="image/logo.jpg" alt="logo" width="80px" height="80px">
-                          Handball Club Guiscard
-                    </a>
-                
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarPrimary" aria-controls="NavbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+  <!--init pour bootstrap-->
+  <div class="container-fluid">
+    <!--En tête-->
+    <header>
+      <div class="row pt-2">
 
-                    <div class="collapse navbar-collapse justify-content-end" id="NavbarPrimary">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">Notre Club</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                              Nos Equipes
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Baby Hand</a></li>
-                              <li><a class="dropdown-item" href="#">Moins de 9</a></li>
-                              <li><a class="dropdown-item" href="#">Moins de 11</a></li>
-                              <li><a class="dropdown-item" href="#">Moins de 13</a></li>
-                              <li><a class="dropdown-item" href="#">Moins de 15</a></li>
-                              <li><a class="dropdown-item" href="#">Moins de 18</a></li>
-                              <li><a class="dropdown-item" href="#">Senior Fille</a></li>
-                              <li><a class="dropdown-item" href="#">Senior Garçon</a></li>
-                              <li><a class="dropdown-item" href="#">Loisir</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="evenements.html">Evénements</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
+        <div class="col-12 d-flex justify-content-end">
+          <ul class="list-inline">
+            <li class="list-inline-item pr-2">
+              <a href="https://www.facebook.com/Hbcguiscard/"> <i class="bi bi-facebook fs-2"></i></a>
+            </li>
+            <li class="list-inline-item pr-3">
+              <a href="#"><i class="bi bi-instagram fs-2"></i></a> 
+            </li>
+          </ul>    
+        </div>
 
-                </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-12 ">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img id="LogoNav" src="image/logo.jpg" alt="logo">
+              <p class="d-none d-md-inline">Handball Club Guiscard</p>
+              <p class="d-md-none ">HBC G</p>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarPrimary"
+              aria-controls="NavbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="NavbarPrimary">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Notre Club</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    Nos Equipes
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Baby Hand</a></li>
+                    <li><a class="dropdown-item" href="#">Moins de 9</a></li>
+                    <li><a class="dropdown-item" href="#">Moins de 11</a></li>
+                    <li><a class="dropdown-item" href="#">Moins de 13</a></li>
+                    <li><a class="dropdown-item" href="#">Moins de 15</a></li>
+                    <li><a class="dropdown-item" href="#">Moins de 18</a></li>
+                    <li><a class="dropdown-item" href="#">Senior Fille</a></li>
+                    <li><a class="dropdown-item" href="#">Senior Garçon</a></li>
+                    <li><a class="dropdown-item" href="#">Loisir</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Classements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="evenements.html">Evénements</a>
+                </li>
+              </ul>
             </div>
-        </header>
-        <main>
 
-          <div class="row">
-            <div  class="col-12">
-              <img class="img-fluid"  src="image/PhotoAccueil.jpg">
-            </div>
-          </div>   
+          </nav>
+        </div>
+      </div>
+    </header>
 
-          <div class="row">
-            <div class="col-12">
-              <article>
-                <h1><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-                  <path id="Icon_ionic-ios-football" data-name="Icon ionic-ios-football" d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z" transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1"/>
-                </svg>                
-                Notre Club </h1>
-    
-                <p>
-                  Notre club est situé dans l'oise sur la commune de <strong>Guiscard</strong>.
-                </p>
-  
-              </article>  
+    <!--Corps de la page-->
+    <main>
+
+      <!--Calendrier-->
+      <div class="row justify-content-around">
+
+        <!--resultat-->
+        <div class="col-12 col-lg-5">
+
+          <span class="title-table d-flex justify-content-center align-items-center"><svg
+              xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+              <path data-name="Icon zocial-grooveshark"
+                d="M0,20.04A19.592,19.592,0,0,1,2.68,10,19.858,19.858,0,0,1,9.96,2.72,19.592,19.592,0,0,1,20,.04,19.592,19.592,0,0,1,30.04,2.72,19.858,19.858,0,0,1,37.32,10,19.592,19.592,0,0,1,40,20.04a19.592,19.592,0,0,1-2.68,10.04,19.858,19.858,0,0,1-7.28,7.28A19.592,19.592,0,0,1,20,40.04,19.592,19.592,0,0,1,9.96,37.36a19.858,19.858,0,0,1-7.28-7.28A19.592,19.592,0,0,1,0,20.04Zm5.16,0q0,2.6,1.44,3.08a3.669,3.669,0,0,0,.68.16,4.842,4.842,0,0,0,3.4-1.6A7.811,7.811,0,0,0,13,18.08a18.971,18.971,0,0,0,.4-8,4.8,4.8,0,0,1-.08-.68q-.12-.24,0-.36.04-.12.52.04a17.919,17.919,0,0,1,3.12,1.16,17.485,17.485,0,0,1,4.08,2.8,31.534,31.534,0,0,1,3.48,3.56q1.32,1.56,3.2,4.16a8.7,8.7,0,0,0,3.52,3.08,4.061,4.061,0,0,0,1.9.28,1.625,1.625,0,0,0,1.16-.8,4.8,4.8,0,0,0,.6-1.48,8.226,8.226,0,0,0,.18-1.8,15.78,15.78,0,0,0-.48-3.84q-.12-.48-.32-1.12a13.969,13.969,0,0,0-1.64-3.36A15.037,15.037,0,0,0,20.12,4.96a14.193,14.193,0,0,0-5,.88A14.631,14.631,0,0,0,9.5,9.4a14.864,14.864,0,0,0-3.54,5.68q-.04.2-.16.58a4.112,4.112,0,0,1-.2.54,15.037,15.037,0,0,0-.44,3.84Z"
+                transform="translate(0 -0.04)" fill="#1f7e85" />
+            </svg>
+
+            Les derniers résultats</span>
+          <table class="table table-striped table-hover ">
+            <thead>
+              <tr>
+                <th scope="col">Catégorie</th>
+                <th scope="col">Date</th>
+                <th scope="col">Match</th>
+                <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Moins 11</th>
+                <th>15/01/22</th>
+                <th>Guiscard-Beauvais</th>
+                <th>10-0</th>
+              </tr>
+              <tr>
+                <th scope="row">Moins 13</th>
+                <th>15/01/22</th>
+                <th>Lagny-Guiscard</th>
+                <th>15-12</th>
+              </tr>
+              <tr>
+                <th scope="row">Moins 15</th>
+                <th>15/01/22</th>
+                <th>Guiscard-Compiegne</th>
+                <th>32-35</th>
+              </tr>
+              <tr>
+                <th scope="row">Senior Fille</th>
+                <th>15/01/22</th>
+                <th>Guiscard-Soissons</th>
+                <th>19-27</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--match à venir-->
+        <div class="col-12 col-lg-5">
+
+          <span class="title-table d-flex justify-content-center align-items-center"><svg
+              xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+              <path data-name="Icon zocial-grooveshark"
+                d="M0,20.04A19.592,19.592,0,0,1,2.68,10,19.858,19.858,0,0,1,9.96,2.72,19.592,19.592,0,0,1,20,.04,19.592,19.592,0,0,1,30.04,2.72,19.858,19.858,0,0,1,37.32,10,19.592,19.592,0,0,1,40,20.04a19.592,19.592,0,0,1-2.68,10.04,19.858,19.858,0,0,1-7.28,7.28A19.592,19.592,0,0,1,20,40.04,19.592,19.592,0,0,1,9.96,37.36a19.858,19.858,0,0,1-7.28-7.28A19.592,19.592,0,0,1,0,20.04Zm5.16,0q0,2.6,1.44,3.08a3.669,3.669,0,0,0,.68.16,4.842,4.842,0,0,0,3.4-1.6A7.811,7.811,0,0,0,13,18.08a18.971,18.971,0,0,0,.4-8,4.8,4.8,0,0,1-.08-.68q-.12-.24,0-.36.04-.12.52.04a17.919,17.919,0,0,1,3.12,1.16,17.485,17.485,0,0,1,4.08,2.8,31.534,31.534,0,0,1,3.48,3.56q1.32,1.56,3.2,4.16a8.7,8.7,0,0,0,3.52,3.08,4.061,4.061,0,0,0,1.9.28,1.625,1.625,0,0,0,1.16-.8,4.8,4.8,0,0,0,.6-1.48,8.226,8.226,0,0,0,.18-1.8,15.78,15.78,0,0,0-.48-3.84q-.12-.48-.32-1.12a13.969,13.969,0,0,0-1.64-3.36A15.037,15.037,0,0,0,20.12,4.96a14.193,14.193,0,0,0-5,.88A14.631,14.631,0,0,0,9.5,9.4a14.864,14.864,0,0,0-3.54,5.68q-.04.2-.16.58a4.112,4.112,0,0,1-.2.54,15.037,15.037,0,0,0-.44,3.84Z"
+                transform="translate(0 -0.04)" fill="#1f7e85" />
+            </svg>
+            Les matchs à venir</span>
+          <table class="table table-striped table-hover">
+            <caption>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+              <path data-name="Icon awesome-home"
+                d="M9.734,7.442l-6.4,6.78v7.317a.65.65,0,0,0,.556.714l3.891-.013a.651.651,0,0,0,.553-.714V17.253a.65.65,0,0,1,.556-.714h2.222a.65.65,0,0,1,.556.714v4.27a.83.83,0,0,0,.162.507.5.5,0,0,0,.393.21l3.889.014a.65.65,0,0,0,.556-.714V14.217l-6.4-6.775A.353.353,0,0,0,9.734,7.442ZM19.845,12.05l-2.9-3.077V2.789a.488.488,0,0,0-.417-.536H14.582a.488.488,0,0,0-.417.536V6.031L11.057,2.742a1.392,1.392,0,0,0-2.118,0L.15,12.05a.646.646,0,0,0-.056.755L.98,14.189a.4.4,0,0,0,.282.193.358.358,0,0,0,.305-.12l8.167-8.65a.353.353,0,0,1,.531,0l8.167,8.65a.357.357,0,0,0,.587-.071l.885-1.384A.646.646,0,0,0,20,12.412a.592.592,0,0,0-.152-.362Z"
+                transform="translate(0.001 -2.254)" fill="#1f7e85" />
+              </svg> Match à domicile
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <path data-name="Icon awesome-car"
+                  d="M19.531,10.333H17.192l-.65-2.167C15.874,5.939,14.28,4.5,12.481,4.5H7.52c-1.8,0-3.394,1.439-4.062,3.667l-.65,2.167H.469c-.305,0-.529.382-.455.777l.234,1.25a.517.517,0,0,0,.455.473h.784a3.847,3.847,0,0,0-.863,2.5v2.5a3.991,3.991,0,0,0,.625,2.184v2.816c0,.92.56,1.667,1.25,1.667H3.75c.69,0,1.25-.746,1.25-1.667V21.167H15v1.667c0,.92.56,1.667,1.25,1.667H17.5c.69,0,1.25-.746,1.25-1.667V20.017a3.988,3.988,0,0,0,.625-2.184v-2.5a3.849,3.849,0,0,0-.862-2.5H19.3a.517.517,0,0,0,.455-.473l.234-1.25c.074-.394-.15-.777-.455-.777ZM5.779,9.4A1.966,1.966,0,0,1,7.52,7.833h4.961A1.966,1.966,0,0,1,14.222,9.4L15,12H5l.779-2.6ZM3.75,17.823c-.75,0-1.25-.665-1.25-1.661S3,14.5,3.75,14.5,5.625,16,5.625,16.992,4.5,17.823,3.75,17.823Zm12.5,0c-.75,0-1.875.166-1.875-.831S15.5,14.5,16.25,14.5s1.25.665,1.25,1.661S17,17.823,16.25,17.823Z"
+                  transform="translate(0 -4.5)" fill="#1f7e85" />
+              </svg> Match à l'extérieur
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Catégorie</th>
+                <th scope="col">Date</th>
+                <th scope="col">Match</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path data-name="Icon awesome-home"
+                      d="M9.734,7.442l-6.4,6.78v7.317a.65.65,0,0,0,.556.714l3.891-.013a.651.651,0,0,0,.553-.714V17.253a.65.65,0,0,1,.556-.714h2.222a.65.65,0,0,1,.556.714v4.27a.83.83,0,0,0,.162.507.5.5,0,0,0,.393.21l3.889.014a.65.65,0,0,0,.556-.714V14.217l-6.4-6.775A.353.353,0,0,0,9.734,7.442ZM19.845,12.05l-2.9-3.077V2.789a.488.488,0,0,0-.417-.536H14.582a.488.488,0,0,0-.417.536V6.031L11.057,2.742a1.392,1.392,0,0,0-2.118,0L.15,12.05a.646.646,0,0,0-.056.755L.98,14.189a.4.4,0,0,0,.282.193.358.358,0,0,0,.305-.12l8.167-8.65a.353.353,0,0,1,.531,0l8.167,8.65a.357.357,0,0,0,.587-.071l.885-1.384A.646.646,0,0,0,20,12.412a.592.592,0,0,0-.152-.362Z"
+                      transform="translate(0.001 -2.254)" fill="#1f7e85" />
+                  </svg>
+                </th>
+                <th>Moins 9</th>
+                <th>22/01/22 à 15h</th>
+                <th>Guiscard-Beauvais</th>
+              </tr>
+              <tr>
+                <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path data-name="Icon awesome-car"
+                      d="M19.531,10.333H17.192l-.65-2.167C15.874,5.939,14.28,4.5,12.481,4.5H7.52c-1.8,0-3.394,1.439-4.062,3.667l-.65,2.167H.469c-.305,0-.529.382-.455.777l.234,1.25a.517.517,0,0,0,.455.473h.784a3.847,3.847,0,0,0-.863,2.5v2.5a3.991,3.991,0,0,0,.625,2.184v2.816c0,.92.56,1.667,1.25,1.667H3.75c.69,0,1.25-.746,1.25-1.667V21.167H15v1.667c0,.92.56,1.667,1.25,1.667H17.5c.69,0,1.25-.746,1.25-1.667V20.017a3.988,3.988,0,0,0,.625-2.184v-2.5a3.849,3.849,0,0,0-.862-2.5H19.3a.517.517,0,0,0,.455-.473l.234-1.25c.074-.394-.15-.777-.455-.777ZM5.779,9.4A1.966,1.966,0,0,1,7.52,7.833h4.961A1.966,1.966,0,0,1,14.222,9.4L15,12H5l.779-2.6ZM3.75,17.823c-.75,0-1.25-.665-1.25-1.661S3,14.5,3.75,14.5,5.625,16,5.625,16.992,4.5,17.823,3.75,17.823Zm12.5,0c-.75,0-1.875.166-1.875-.831S15.5,14.5,16.25,14.5s1.25.665,1.25,1.661S17,17.823,16.25,17.823Z"
+                      transform="translate(0 -4.5)" fill="#1f7e85" />
+                  </svg></th>
+                <th>Moins 13</th>
+                <th>23/01/22 à 14h</th>
+                <th>Guiscard-Lassigny</th>
+              </tr>
+              <tr>
+                <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path data-name="Icon awesome-car"
+                      d="M19.531,10.333H17.192l-.65-2.167C15.874,5.939,14.28,4.5,12.481,4.5H7.52c-1.8,0-3.394,1.439-4.062,3.667l-.65,2.167H.469c-.305,0-.529.382-.455.777l.234,1.25a.517.517,0,0,0,.455.473h.784a3.847,3.847,0,0,0-.863,2.5v2.5a3.991,3.991,0,0,0,.625,2.184v2.816c0,.92.56,1.667,1.25,1.667H3.75c.69,0,1.25-.746,1.25-1.667V21.167H15v1.667c0,.92.56,1.667,1.25,1.667H17.5c.69,0,1.25-.746,1.25-1.667V20.017a3.988,3.988,0,0,0,.625-2.184v-2.5a3.849,3.849,0,0,0-.862-2.5H19.3a.517.517,0,0,0,.455-.473l.234-1.25c.074-.394-.15-.777-.455-.777ZM5.779,9.4A1.966,1.966,0,0,1,7.52,7.833h4.961A1.966,1.966,0,0,1,14.222,9.4L15,12H5l.779-2.6ZM3.75,17.823c-.75,0-1.25-.665-1.25-1.661S3,14.5,3.75,14.5,5.625,16,5.625,16.992,4.5,17.823,3.75,17.823Zm12.5,0c-.75,0-1.875.166-1.875-.831S15.5,14.5,16.25,14.5s1.25.665,1.25,1.661S17,17.823,16.25,17.823Z"
+                      transform="translate(0 -4.5)" fill="#1f7e85" />
+                  </svg>
+                </th>
+                <th>Moins 15</th>
+                <th>22/01/22 à 16h</th>
+                <th>Compiegne-Guiscard</th>
+              </tr>
+              <tr>
+                <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path data-name="Icon awesome-home"
+                      d="M9.734,7.442l-6.4,6.78v7.317a.65.65,0,0,0,.556.714l3.891-.013a.651.651,0,0,0,.553-.714V17.253a.65.65,0,0,1,.556-.714h2.222a.65.65,0,0,1,.556.714v4.27a.83.83,0,0,0,.162.507.5.5,0,0,0,.393.21l3.889.014a.65.65,0,0,0,.556-.714V14.217l-6.4-6.775A.353.353,0,0,0,9.734,7.442ZM19.845,12.05l-2.9-3.077V2.789a.488.488,0,0,0-.417-.536H14.582a.488.488,0,0,0-.417.536V6.031L11.057,2.742a1.392,1.392,0,0,0-2.118,0L.15,12.05a.646.646,0,0,0-.056.755L.98,14.189a.4.4,0,0,0,.282.193.358.358,0,0,0,.305-.12l8.167-8.65a.353.353,0,0,1,.531,0l8.167,8.65a.357.357,0,0,0,.587-.071l.885-1.384A.646.646,0,0,0,20,12.412a.592.592,0,0,0-.152-.362Z"
+                      transform="translate(0.001 -2.254)" fill="#1f7e85" />
+                  </svg>
+                </th>
+                <th>Senior Fille</th>
+                <th>23/01/22 à 11h</th>
+                <th>Guiscard-Noyon</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!--Section1-->
+      <article>
+        <div class="row  pt-4">
+          <div class="col-12 flex-column d-flex justify-content-center align-items-center">
+            <h1><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                <path data-name="Icon ionic-ios-football"
+                  d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z"
+                  transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1" />
+              </svg>
+              Notre Club 
+            </h1>
+            <img src="image/logo.jpg" alt="logo">
+          </div>
+        </div>
+
+        <div class="row pt-2">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <p>Notre club est situé dans l'oise sur la commune de <strong>Guiscard</strong>.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga hic numquam libero rerum voluptatum
+              voluptatem impedit </p>
+            <p>quo distinctio nesciunt asperiores, cupiditate, sapiente dolor eius, consequatur facere beatae! Sequi,
+              eveniet ea?</p>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="col-12 d-flex justify-content-center">
+            <iframe id="GoogleMaps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5743.03189121895!2d3.0557603275297547!3d49.65473112996899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e80d3347f250df%3A0xffa6b875df9972f9!2sColl%C3%A8ge%20Constant%20Bourgeois!5e0!3m2!1sfr!2sfr!4v1643060483286!5m2!1sfr!2sfr"
+              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </article>
+
+      <!--Section2-->
+      <article>
+
+        <div class="row  pt-4">
+          <div class="col-12 d-flex justify-content-center">
+            <h2><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                <path data-name="Icon ionic-ios-football"
+                  d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z"
+                  transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1" />
+              </svg>
+              Notre Histoire </h2>
+          </div>
+        </div>
+
+        <div class="row  pt-2">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <P><strong>1982:</strong> Création du club.</P>
+            <P><strong>2007:</strong> Inondation - Mise en sommeil du club.</P>
+            <P><strong>2013:</strong> Relance du club avec une équipe de séniors masculins.</P>
+            <P><strong>2015:</strong> Champion de l'Oise.</P>
+            <P><strong>2016:</strong> Mise en place des catégories jeunes.</P>
+            <P><strong>2017:</strong> Mise en place d'une équipe de séniores féminines.</P>
+            <P><strong>2018:</strong> Label Ecole de hand.</P>
+            <P><strong>2019:</strong> Label Ecole de hand Bronze.</P>
+            <P><strong>2020:</strong> Label Ecole de hand Argent.</P>
+            <P><strong>2021:</strong> Label Ecole de hand Argent.</P>
+          </div>
+        </div>
+      </article>
+
+
+      <!--Section 3-->
+      <article>
+        <div class="row d-flex justify-content-center pt-4">
+          <h2><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+              <path data-name="Icon ionic-ios-football"
+                d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z"
+                transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1" />
+            </svg>
+            Nos Pratiques </h2>
+        </div>
+
+        <div class="row pt-2 d-flex justify-content-center">
+          <div class="col-12 col-lg-2 d-flex justify-content-center"> <img class="LogoPratique" src="image/babyhand.png"
+              alt="babyhand"></div>
+          <div class="col-12 col-lg-2 d-flex justify-content-center"> <img class="LogoPratique"
+              src="image/mini_hand.png" alt="mini hand"> </div>
+          <div class="col-12 col-lg-2 d-flex justify-content-center"> <img class="LogoPratique"
+              src="image/ecole_du_hand.png" alt="école du hand"> </div>
+          <div class="col-12 col-lg-2 d-flex justify-content-center"> <img class="LogoPratique" src="image/hand4.png"
+              alt="hand à 4"> </div>
+          <div class="col-12 col-lg-2 d-flex justify-content-center"> <img class="LogoPratique"
+              src="image/hand_loisir.png" alt="hand loisir"> </div>
+        </div>
+      </article>
+
+
+      <!--Section 4  Card-->
+      <article>
+        <div class="row">
+          <!--Card Classement-->
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center pt-5">
+            <h2><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                <path data-name="Icon ionic-ios-football"
+                  d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z"
+                  transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1" />
+              </svg>
+              Classements </h2>
+            <div class=" card Card_Style mt-2">
+              <img src="image/img-Actu.jpg" class="img_Card card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Classements</h4>
+                <p class="card-text">Retrouvez le classement de nos équipes.</p>
+                <a href="#" class="btn btn-card">Voir le détail</a>
+              </div>
             </div>
           </div>
-            
 
-  
-        </main>
-        <!-- jQuery CDN -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <!-- Bootstrap CDN JavaScript -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-        <!-- Our JavaScript -->
-        <script src="script.js"></script>
-    </div>
+          <!--Card Evénement-->
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center pt-5">
+            <h2><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                <path data-name="Icon ionic-ios-football"
+                  d="M13.375,3.375a10,10,0,1,0,10,10A10,10,0,0,0,13.375,3.375Zm6.12,3.88a8.586,8.586,0,0,1,1.087,1.322.176.176,0,0,1,.019.168l-.692,1.986a.191.191,0,0,1-.1.111L17.043,12.1a.193.193,0,0,1-.2-.029L14.12,9.784a.2.2,0,0,1-.067-.149V6.6a.192.192,0,0,1,.087-.159l1.846-1.255a.189.189,0,0,1,.168-.024A8.762,8.762,0,0,1,19.5,7.255ZM15.942,21.563a.178.178,0,0,1-.125.115,8.641,8.641,0,0,1-2.442.346,8.792,8.792,0,0,1-2.442-.346.2.2,0,0,1-.125-.115L10.019,19.5a.2.2,0,0,1,.01-.159L11.1,17.3a.194.194,0,0,1,.168-.1h4.207a.189.189,0,0,1,.168.1l1.072,2.034a.2.2,0,0,1,.01.159ZM12.7,6.611V9.644a.2.2,0,0,1-.067.149L9.909,12.077a.193.193,0,0,1-.2.029l-2.764-1.26a.19.19,0,0,1-.1-.111L6.149,8.755a.188.188,0,0,1,.019-.168,8.716,8.716,0,0,1,4.433-3.4.189.189,0,0,1,.168.024l1.846,1.255A.159.159,0,0,1,12.7,6.611ZM4.8,13.764l1.736-1.5a.192.192,0,0,1,.207-.029L9.264,13.38a.193.193,0,0,1,.106.13l.7,2.755a.23.23,0,0,1-.014.139L8.942,18.514a.187.187,0,0,1-.173.1l-2.212-.029A.2.2,0,0,1,6.4,18.51a8.592,8.592,0,0,1-1.668-4.587A.21.21,0,0,1,4.8,13.764Zm13,4.745L16.692,16.4a.176.176,0,0,1-.014-.139l.7-2.755a.193.193,0,0,1,.106-.13L20,12.236a.2.2,0,0,1,.207.029l1.736,1.5a.2.2,0,0,1,.067.159,8.567,8.567,0,0,1-1.668,4.587.187.187,0,0,1-.154.077l-2.216.029A.211.211,0,0,1,17.8,18.51Z"
+                  transform="translate(-2.875 -2.875)" fill="#1f7e85" stroke="#1f7e85" stroke-width="1" />
+              </svg>
+              Evénements </h2>
+            <div class="card Card_Style  mt-2">
+              <img src="image/img-evenement.jpg" class="img_Card card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Nos Evénements</h4>
+                <p class="card-text">Retrouvez tous nos evénements.</p>
+                <a href="evenements.html" class="btn btn-card">Voir nos événements</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <div class="row d-flex justify-content-lg-around mt-4 pt-2">
+        <!--Coordonnées-->
+        <div class="col-12 col-lg-3 flex-column d-flex align-items-center text-center">
+            <p> <i class="bi bi-geo-alt-fill pe-2"></i> 127 rue du général leclerc 60640 Guiscard</p>
+            <a href="mailto:hbcguiscard@hotmail.fr"><i class="bi bi-envelope"></i> hbcguiscard@hotmail.fr</a>
+            <a href="tel:0344444444"><i class="bi bi-telephone"></i> 0344444444</a>
+        </div>
+        <!--Contact-->
+        <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
+          <span>Nous Contacter</span>
+          <p>© 2022 - Tous droits réservés<br></p>
+        </div>
+        
+        <!--Réseau Social-->
+        <div class="col-12  col-lg-3 d-flex justify-content-center">
+          <ul class="list-inline">
+            <li class="list-inline-item pr-2">
+              <a href="https://www.facebook.com/Hbcguiscard/"> <i class="bi bi-facebook fs-2"></i></a>
+            </li>
+            <li class="list-inline-item pr-2">
+              <a href="#"><i class="bi bi-instagram fs-2"></i></a> 
+            </li>
+          </ul>             
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+  </script>
+  <!-- Our JavaScript -->
+  <script src="script.js"></script>
+
 </body>
+
 </html>

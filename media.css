@@ -1,0 +1,35 @@
+/*sm<*/
+@media (max-width: 767px) {
+    /* début style pour tableau */
+    th,tr,td {
+        font-size: 1em;
+    }
+    /* fin style pour tableau */
+
+    .Card_Style{
+        border-color: var(--PrimaryColor);
+    }
+}
+
+/*>md*/
+@media(min-width:768px){
+    /* début style pour tableau */
+    th,tr,td {
+        font-size: 1,5em;
+    }
+    /* fin style pour tableau */
+
+    /* début style card*/
+    .Card_Style{
+        border-color: var(--PrimaryColor);
+        width: 50rem;
+    }
+
+    .img_Card{
+        height: 500px;
+        width: auto;
+    }
+    /* fin style card*/
+}
+
+
