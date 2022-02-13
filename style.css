@@ -33,6 +33,13 @@ h4{
     font-size: 1.5em;
 }
 
+h5{
+    font-family: var(--Title2Typo);
+    color: var(--PrimaryColor);
+    font-size: 1em;
+}
+
+
 P{
     font-family: var(--NormalTypo);
     font-size: 1em;
@@ -49,6 +56,11 @@ P{
 #GoogleMaps{
     width: 400px;
     height: 300px;
+}
+
+a{
+    font-family: var(--NormalTypo);
+    color:var(--PrimaryColor);
 }
 
 /*Début footer*/
